@@ -1,0 +1,30 @@
+POST http://localhost:3500/daftar
+Content-Type:application/json
+
+{
+    "username":"fulan",
+    "email":"fulancihuy@gmail.com",
+    "password":"fulankuy"
+}
+###
+
+POST http://localhost:3500/daftar
+
+Content-Type:application/json
+
+{
+    "username":"rafidimas",
+    "email":"rafidimas@gmail.com",
+    "password":"Herotayo27"
+
+}
+###
+PUT http://localhost:3500/forgotPassword
+Content-Type: application/json
+
+{
+    "email":"rafidimas1706@gmail.com"
+}
+###
+
+
